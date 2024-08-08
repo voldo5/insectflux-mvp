@@ -26,6 +26,7 @@ import {
   TooltipTrigger
 } from '@/components/ui/tooltip';
 import { Analytics } from '@vercel/analytics/react';
+//'../(dashboard)/actions'
 import { User } from './user';
 import { VercelLogo } from '@/components/icons';
 import Providers from './providers';
@@ -70,7 +71,8 @@ function DesktopNav() {
           <span className="sr-only">Acme Inc</span>
         </Link>
 
-        <NavItem href="#" label="Dashboard">
+        {/* <NavItem href="#" label="Dashboard"> */}
+        <NavItem href="/dashboard" label="Dashboard">
           <Home className="h-5 w-5" />
         </NavItem>
 
