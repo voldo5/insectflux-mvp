@@ -158,7 +158,7 @@ export default async function Home() {
     <div className="flex flex-col items-center justify-center min-h-screen p-4">
       <section
         className="relative bg-cover bg-center h-[500px] w-full"
-        style={{ backgroundImage: 'url("/Images/banner.png")' }}
+        style={{ backgroundImage: 'url("/images/banner.png")' }}
       >
         <div className="absolute inset-0 bg-black/50 flex flex-col justify-center items-center">
           <h1 className="text-4xl md:text-6xl font-bold text-bannerForeground">
