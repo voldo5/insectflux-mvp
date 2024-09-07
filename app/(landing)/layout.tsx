@@ -7,7 +7,9 @@ import {
   PanelLeft,
   Settings,
   ShoppingCart,
-  Users2
+  Users2,
+  MessageSquare,
+  LayoutDashboard
 } from 'lucide-react';
 
 import {
@@ -72,7 +74,7 @@ function DesktopNav() {
         </Link>
 
         {/* <NavItem href="#" label="Dashboard"> */}
-        <NavItem href="/dashboard" label="Dashboard">
+        <NavItem href="/home" label="Dashboard">
           <Home className="h-5 w-5" />
         </NavItem>
 
@@ -80,7 +82,7 @@ function DesktopNav() {
           <ShoppingCart className="h-5 w-5" />
         </NavItem>
 
-        <NavItem href="/" label="Products">
+        <NavItem href="/products" label="Products">
           <Package className="h-5 w-5" />
         </NavItem>
 
@@ -90,6 +92,14 @@ function DesktopNav() {
 
         <NavItem href="#" label="Analytics">
           <LineChart className="h-5 w-5" />
+        </NavItem>
+
+        <NavItem href="/dashboardAdmin" label="Admin Dashboard">
+          <LayoutDashboard className="h-5 w-5" />
+        </NavItem>
+
+        <NavItem href="/forum" label="Forum">
+          <MessageSquare className="h-5 w-5" />
         </NavItem>
       </nav>
       <nav className="mt-auto flex flex-col items-center gap-4 px-2 sm:py-5">

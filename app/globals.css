@@ -5,8 +5,9 @@
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-
+    /* --foreground: 222.2 84% 4.9%; */
+    --foreground: #1A1A1A;
+    
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
 
@@ -33,6 +34,13 @@
     --ring: 222.2 84% 4.9%;
 
     --radius: 0.5rem;
+
+    /* --color-note: #0969da;
+    --color-tip: #1a7f37;
+    --color-warning: #9a6700;
+    --color-severe: #bc4c00;
+    --color-caution: #d1242f;
+    --color-important: #8250df; */
   }
 
   .dark {

@@ -1,4 +1,20 @@
 {
   "typescript.tsdk": "node_modules/typescript/lib",
-  "typescript.enablePromptUseWorkspaceTsdk": true
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "cSpell.words": [
+    "antd",
+    "Appstore",
+    "bunners",
+    "bytea",
+    "heroicons",
+    "homecontent",
+    "ilike",
+    "Insectflux",
+    "lucide",
+    "nextjs",
+    "Sider",
+    "tailwindcss",
+    "upsert",
+    "upserting"
+  ]
 }

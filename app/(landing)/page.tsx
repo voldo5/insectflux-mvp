@@ -1,3 +1,4 @@
+'use client';
 // app/landing/page.tsx
 
 import Head from 'next/head';

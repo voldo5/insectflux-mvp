@@ -31,6 +31,16 @@ export const products = pgTable('products', {
 export type SelectProduct = typeof products.$inferSelect;
 export const insertProductSchema = createInsertSchema(products);
 
+// CREATE TABLE HomeContent (
+//   id SERIAL PRIMARY KEY,
+//   overview TEXT,
+//   featured_products TEXT,
+//   featured_companies TEXT,
+//   promotions TEXT,
+//   success_stories TEXT,
+//   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+// );
+
 export async function getProducts(
   search: string,
   offset: number
