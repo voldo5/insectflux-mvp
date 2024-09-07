@@ -19,13 +19,13 @@ import IconComponent from '@/components/IconComponent';
 const products = [
   {
     id: 1,
-    imageUrl: '/images/Products/Product1_Fertilizer.png',
+    imageUrl: '/images/products/product1_Fertilizer.png',
     name: 'Organic Fertilizer',
     price: '19.99'
   },
   {
     id: 2,
-    imageUrl: '/images/Products/Product2_Compost_Bin.png',
+    imageUrl: '/images/products/product2_Compost_Bin.png',
     name: 'Compost Bin',
     price: '29.99'
   },
@@ -46,13 +46,13 @@ const products = [
 const companies = [
   {
     id: 1,
-    logoUrl: '/images/companies/Company1_Green_Earth.png',
+    logoUrl: '/images/companies/company1_Green_Earth.png',
     name: 'GreenEarth Supplies',
     description: 'Leading provider of sustainable agricultural products.'
   },
   {
     id: 2,
-    logoUrl: '/images/companies/Company2_Eco_Innovation.png',
+    logoUrl: '/images/companies/company2_Eco_Innovation.png',
     name: 'Eco Innovations Ltd.',
     description: 'Innovative solutions for a greener future.'
   },
@@ -73,14 +73,14 @@ const companies = [
 const stories = [
   {
     id: 1,
-    imageUrl: '/images/stories/Story1_To_Wealth.png',
+    imageUrl: '/images/stories/story1_To_Wealth.png',
     title: 'Transforming Waste into Wealth',
     excerpt:
       'Learn how a small community turned organic waste into profitable products...'
   },
   {
     id: 2,
-    imageUrl: '/images/stories/Story2_Agriculture_Revolution.png',
+    imageUrl: '/images/stories/story2_Agriculture_Revolution.png',
     title: 'A Sustainable Farming Revolution',
     excerpt:
       'Discover how sustainable practices led to a 30% increase in crop yield...'
